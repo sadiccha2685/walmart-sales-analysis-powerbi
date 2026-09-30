@@ -1,37 +1,45 @@
-# 📊 Walmart Sales Analysis Dashboard (Power BI)
-
-An end-to-end interactive Power BI dashboard designed to analyze retail sales performance, regional revenue trends, store-level KPIs, and customer purchasing patterns across Walmart locations.
-
----
+# 🛒 Walmart Sales & Performance Analysis Dashboard
 
 ## 📌 Project Overview
-
-This project provides business leaders and operations teams with actionable insights into retail performance. By processing historical sales data, the report visualizes key operational metrics, identifies top-performing product categories, tracks seasonal trends, and pinpoints regional sales drivers to optimize inventory and revenue management.
-
----
-
-## Key Features
-
-* **Executive Summary Page**: Visualizes total revenue, profit margins, total orders, and average order value (AOV) across all store locations.
-* **Sales & Trend Analysis**: Interactive time-series breakdown of monthly and quarterly sales patterns to identify seasonal demand spikes.
-* **Category & Product Insights**: Drills down into product line profitability, unit sales volume, and top-performing merchandise.
-* **Regional & Store Performance**: Geographic breakdown comparing regional stores by sales contribution and target attainment.
-* **Dynamic Interactivity**: Includes multi-parameter slicers (Date, Region, Store Type) and custom DAX measures for real-time metric filtering.
+**Walmart Sales Analytics** is an end-to-end interactive Power BI dashboard designed to monitor sales volume, profit margins, customer demographic trends, and branch performance[cite: 21]. It translates complex retail transaction records into executive-level operational metrics to evaluate sales velocity, gross income, and product category profitability[cite: 20, 21].
 
 ---
 
-## 🛠 Tech Stack & Tools
-
-* **Business Intelligence**: Power BI Desktop
-* **Data Transformation**: Power Query Editor
-* **Data Modeling & Analytics**: Data Analysis Expressions (DAX)
-* **Data Source**: Excel / CSV transactional data
+## 📊 Key KPIs & Metrics (Overview Analysis)
+* **Total Sales & Income:** Real-time tracking of overall gross revenue (`Total Revenue`), net profit (`Total Profit`), and total transaction volume[cite: 20, 21].
+* **Financial Overhead:** Live tracking of Average Transaction Value, Profit Margin %, and Gross Margin % with year-over-year growth indicators[cite: 20, 21].
+* **Monthly & Quarterly Trends:** Line graph tracking revenue trends, order velocity, and peak sales periods over time[cite: 20, 21].
+* **Category Distribution:** Bar charts and visual breakdowns analyzing sales performance across product lines (Electronics, Home & Lifestyle, Food & Beverages, Fashion, etc.)[cite: 20].
+* **Geographic Insights:** Branch-wise and store-level revenue breakdown showing top-performing regional locations[cite: 20, 21].
+* **Demographics & Behavior Analysis:** Breakdown of sales volumes across customer segments, payment methods (E-wallet, Cash, Credit Card), and customer satisfaction ratings[cite: 21].
 
 ---
 
-## 📁 Repository Structure
+## 📋 Granular Transaction Analysis
+* **Sales Ledger:** Detailed transactional table tracking Invoice ID, Branch, City, Product Line, Customer Type, Date, and Payment Channel.
+* **Financial Breakdowns:** Granular auditing of Unit Price, Quantity, Total Sales, Tax, and Net Profit per transaction record.
 
-```text
-├── Walmart_Sales_Analysis.pbix   # Main Power BI Report File
-├── README.md                      # Project Documentation
-└── assets/                        # Dashboard Screenshots & Visuals
+---
+
+## 🛠️ Tools & Technologies
+* **Power BI Desktop:** DAX measures (`Total Sales`, `Total Profit`, `Profit Margin %`, `YoY Sales Growth`), dynamic slicers, and executive layouts[cite: 20].
+* **Power Query:** Data cleaning, ETL transformations, and data model setup.
+* **Source Data:** Retail transaction dataset (`.pbix` / `.csv`).
+
+---
+
+## 📁 How to Access & View
+
+### 1. Watch Demonstration
+View the recorded `.mp4` video uploaded to this repository to see cross-filtering, slicer selection (Year, Quarter, Branch, Product Category), and page navigation between *Overview Analysis* and *Transactions*.
+
+### 2. Run Interactively
+1. Download the [.pbix source file](./walmart_sales_analysis.pbix)
+2. Open the file locally using [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (Free).
+
+---
+
+## 👤 Author
+**Sadiccha Patil**  
+* **LinkedIn:** https://www.linkedin.com/in/sadiccha-patil-234a04330/
+* **GitHub:** https://github.com/sadiccha2685
