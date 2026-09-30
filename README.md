@@ -31,7 +31,7 @@
 ## 📁 How to Access & View
 
 ### 1. Watch Demonstration
-View the recorded `.mp4` video uploaded to this repository to see cross-filtering, slicer selection (Year, Quarter, Branch, Product Category), and page navigation between *Overview Analysis* and *Transactions*.
+View the recorded `.mp4` video uploaded to this repository to see cross-filtering, slicer selection , and page navigation between *Walmart Sales Analysis* and *Detailed View*.
 
 ### 2. Run Interactively
 1. Download the [.pbix source file](./walmart_sales_analysis.pbix)
